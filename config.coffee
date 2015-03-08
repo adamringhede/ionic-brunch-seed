@@ -32,6 +32,9 @@ exports.config =
     jade_angular:
       modules_folder: 'partials'
       locals: {}
+    autoprefixer:
+      browsers: ["last 1 version", "> 1%"]
+      cascade: false
 
   # Enable or disable minifying of result js / css files.
   # minify: true
